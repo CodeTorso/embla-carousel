@@ -17,8 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} text-slate-50 bg-black h-screen flex items-center`}
+        className={`${inter.className} text-slate-50 relative bg-black h-screen flex items-center`}
       >
+        <a
+          href="https://github.com/CodeTorso/embla-carousel"
+          className="absolute top-4 left-4"
+        >
+          Github
+        </a>
         {children}
       </body>
     </html>
