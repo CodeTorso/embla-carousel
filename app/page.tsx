@@ -4,7 +4,7 @@ import EmblaCarousel from "@/components/EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel";
 
 const OPTIONS: EmblaOptionsType = {};
-const SLIDES = Array.from(Array(4).keys());
+const SLIDES = Array.from(Array(16).keys());
 
 function page() {
   return <EmblaCarousel slides={SLIDES} options={OPTIONS} />;
